@@ -1,0 +1,137 @@
+﻿
+VS Code
+GitHub
+Git
+GitKraken
+FileZilla
+MAMP
+
+Библиотека:
+node.js
+
+
+
+Для icons fonts ---- при локальном --- выйти из папки (url)--- "../"
+
+
+
+
+Терминал:
+Ctrl+` - открывает интерг тер
+cd "путь"
+cd .. <-- назад
+
+
+
+Расширения:
+
+VS Code Google translate
+Ctrl+Shift+T --- открывает
+
+Настройка - Sass
+
+!!!!!!!!!!!!
+"liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "~/../css/"
+        }
+    ],
+    "liveSassCompile.settings.autoprefix": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
+
+!!!!!!!
+
+_____________________________________________________________________________________________________________________________
+Git:
+
+git init -включ
+git config --global user.name "имя"
+git config --global user.email @mail.ru/com
+git config --local user.name "имя"
+git config --local user.email @mail.ru/com
+
+global -глобально ... local -локально
+
+commit - это контр. точка!
+git add -A -применяет на всех
+git status -смотрит на files
+git log - смотрит на commit 
+git commit -a -m"название commita" -- создает коммит
+выйти из log: q/Q
+
+git remote add origin url   - для удал доступа
+git remote add origin https://github.com/Web-Encoder/Web-Encoder.github.io.git
+git push -u origin master - включ
+git push - уже в репоз
+git clone url потом название папки  --- создает копию проекта из удал доступа
+git pull -- обновляет данные из уд доступа
+git checkout "commit" -------- возвращает 
+Merge -слияние --- тогда 2 раза CtrL+C -- потом wq!
+__________________________________________________________________________________________________________________________
+
+Gulp:
+
+npm init - включ
+npm install gulp-cli -g         -гл
+npm install gulp-cli --save-dev -лок
+npm install gulp --save-dev
+npm install -g browser-sync      --гл
+npm i browser-sync --save-dev    --лок
+npm i gulp-autoprefixer --save-dev
+npm i gulp-clean-css --save-dev
+npm i gulp-sass --save-dev
+npm i gulp-rename --save-dev
+npm install --save-dev gulp-imagemin
+npm install --save-dev gulp-htmlmin
+
+gulp - включает
+Ctrl+C = остан
+sudo - включ с имени админа
+npm i -инстал всех пакетов под save dev
+
+
+Инструкция:
+
+файлы --- .gitignore, gulpfile.js
+
+создание git-портфолио
+"ник в github.github.io" -- вот так создать репозиторию
+
+В githubPages - кидают только src (но не папку sass)
+
+css -файл ----  подключать последним
+____________________________________________________________________________________________________________
+
+Web
+* -- на всё
+
+___________________________________________________________________________________________________________
+
+Иконка:
+<link rel="shortcut icon" href="" type="image/x-icon"> ------ иконка сайта
+шрифты как писать --- октрыть css файл -- потом название шрифта
+___________________________________________________________________________________________________________
+
+Адаптация: 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+____________________________________________________________________________________________________________
+
+package-lock.json -->> для совместимости версий
+
+package.json
+,
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
+_____________________________________________________________________________________________________________
